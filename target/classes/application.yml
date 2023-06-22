@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:~/trash-alert
+    username: trash-alert
+    password: d32370cf-5821-43e9-99a6-b646f6060f79
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console.enabled: true
