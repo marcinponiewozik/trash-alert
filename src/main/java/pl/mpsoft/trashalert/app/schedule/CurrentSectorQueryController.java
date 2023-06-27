@@ -11,13 +11,13 @@ import pl.mpsoft.trashalert.app.unit.UnitRepository;
 import java.util.*;
 
 @RequestMapping("api/sector")
-@CrossOrigin(origins = "http://localhost")
 @RestController
 @AllArgsConstructor
 public class CurrentSectorQueryController {
     private final ScheduleRepository repo;
     private final UnitRepository unitRepo;
 
+    @CrossOrigin
     @GetMapping
     public ResponseEntity<?> getSectors(@RequestParam Long unitId) {
         Optional<Schedule> optSchedule = repo.getCurrentScheduleForUnit(unitRepo.findOneById(unitId));

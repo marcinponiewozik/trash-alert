@@ -17,6 +17,7 @@ public class ScheduleQueryController {
     private final ScheduleRepository repo;
     private final UnitRepository unitRepo;
 
+    @CrossOrigin
     @GetMapping("{teryt}/current")
     public ResponseEntity<?> getActualSchedule(@PathVariable String teryt) {
         Optional<Unit> optUnit = unitRepo.findOneByUniqueCode(teryt);
@@ -34,6 +35,7 @@ public class ScheduleQueryController {
         return ResponseEntity.ok(optCurrentScheduleForUnit.get());
     }
 
+    @CrossOrigin
     @GetMapping("{teryt}/next")
     public ResponseEntity<?> getNextSchedule(@PathVariable String teryt) {
         Optional<Unit> optUnit = unitRepo.findOneByUniqueCode(teryt);
