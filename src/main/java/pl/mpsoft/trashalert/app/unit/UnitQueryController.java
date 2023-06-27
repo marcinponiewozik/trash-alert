@@ -8,12 +8,12 @@ import java.time.LocalDate;
 import java.util.Set;
 
 @RequestMapping("api/unit")
-@CrossOrigin(origins = "http://localhost")
 @RestController
 @AllArgsConstructor
 class UnitQueryController {
     private final UnitRepository repo;
 
+    @CrossOrigin
     @GetMapping
     public ResponseEntity<?> getUnits(@RequestParam(required = false) String name) {
         Set<Unit> result;
