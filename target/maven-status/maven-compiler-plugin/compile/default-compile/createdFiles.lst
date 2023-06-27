@@ -1,0 +1,17 @@
+pl\mpsoft\trashalert\app\schedule\domain\Sector.class
+pl\mpsoft\trashalert\app\schedule\domain\GarbageCollectionDate.class
+pl\mpsoft\trashalert\app\schedule\domain\dto\TrashCategory.class
+pl\mpsoft\trashalert\app\schedule\domain\SectorRepository.class
+pl\mpsoft\trashalert\app\schedule\domain\Schedule.class
+pl\mpsoft\trashalert\app\unit\UnitRepository.class
+pl\mpsoft\trashalert\app\schedule\domain\ScheduleGenerator.class
+pl\mpsoft\trashalert\app\unit\Unit.class
+pl\mpsoft\trashalert\app\schedule\ScheduleQueryController.class
+pl\mpsoft\trashalert\app\unit\UnitQueryController.class
+pl\mpsoft\trashalert\app\shared\BaseEntity.class
+pl\mpsoft\trashalert\app\schedule\domain\GarbageCollectionDateRepository.class
+pl\mpsoft\trashalert\app\shared\Identifiable.class
+pl\mpsoft\trashalert\Application.class
+pl\mpsoft\trashalert\app\schedule\CurrentSectorQueryController.class
+pl\mpsoft\trashalert\app\schedule\domain\ScheduleRepository.class
+pl\mpsoft\trashalert\app\schedule\ScheduleController.class
