@@ -1,4 +1,5 @@
 pl\mpsoft\trashalert\app\schedule\domain\Sector.class
+pl\mpsoft\trashalert\core\CorsSecurity.class
 pl\mpsoft\trashalert\app\schedule\domain\GarbageCollectionDate.class
 pl\mpsoft\trashalert\app\schedule\domain\dto\TrashCategory.class
 pl\mpsoft\trashalert\app\schedule\domain\SectorRepository.class
