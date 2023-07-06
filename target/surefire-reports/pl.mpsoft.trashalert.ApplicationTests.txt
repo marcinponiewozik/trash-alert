@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pl.mpsoft.trashalert.ApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.024 s - in pl.mpsoft.trashalert.ApplicationTests

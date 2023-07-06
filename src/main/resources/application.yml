@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:~/trash-alert
+    url: jdbc:h2:file:~/trash-alert2
     username: trash-alert
     password: d32370cf-5821-43e9-99a6-b646f6060f79
     driverClassName: org.h2.Driver
@@ -9,6 +9,9 @@ spring:
     hibernate:
       ddl-auto: update
     defer-datasource-initialization: true
+  sql:
+    init:
+      mode: always
   h2:
     console:
       enabled: true
